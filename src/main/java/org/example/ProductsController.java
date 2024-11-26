@@ -8,7 +8,7 @@ public class ProductsController {
 
     @GetMapping
     public String getProduct(){
-        return "Http get handled";
+        return "Http get handled!!!";
     }
 
     @PostMapping
